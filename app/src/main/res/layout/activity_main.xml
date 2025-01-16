@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FDF5FF"
@@ -15,13 +16,12 @@
         android:layout_height="wrap_content"
         android:text="Selamat Pagi, Chelvie"
         android:textColor="#000000"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="120dp"
         android:gravity="center" />
 
     <TextView
@@ -34,12 +34,11 @@
         app:layout_constraintTop_toBottomOf="@+id/tvJudul"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="8dp"
-        android:layout_marginStart="255dp"/>
+        android:layout_marginStart="210dp"/>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginHorizontal="16dp"
         android:layout_marginTop="20dp"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Estimasi Hari Ini"
-            android:textSize="20dp"
+            android:textSize="16dp"
             android:textStyle="bold"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rp. 40.000,-"
-            android:textSize="20dp"
+            android:textSize="16dp"
             android:layout_marginStart="250dp"
             android:layout_marginTop="8dp" />
 
@@ -72,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/black"
-            android:layout_marginTop="50dp"/>
+            android:layout_marginTop="30dp"/>
 
         <ImageView
             android:layout_width="100dp"
@@ -153,8 +152,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/tvLAkun"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:layout_marginStart="10dp"
         android:gravity="center"
@@ -166,10 +165,10 @@
 
         <ImageView
             android:id="@+id/icAkun"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:src="@drawable/ic_akun"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="10dp"/>
 
         <TextView
@@ -178,15 +177,15 @@
             android:layout_height="wrap_content"
             android:text="Akun"
             android:textSize="14sp"
-            android:layout_marginTop="95dp"
-            android:layout_marginStart="45dp"/>
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="35dp"/>
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/tvLlayanan"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:layout_marginStart="15dp"
         android:gravity="center"
@@ -197,10 +196,10 @@
 
         <ImageView
             android:id="@+id/icLayanan"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:src="@drawable/ic_layanan2"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="10dp"/>
 
         <TextView
@@ -209,15 +208,15 @@
             android:layout_height="wrap_content"
             android:text="Layanan"
             android:textSize="14sp"
-            android:layout_marginTop="95dp"
-            android:layout_marginStart="35dp"/>
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="25dp"/>
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/tvLtambahan"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:layout_marginStart="15dp"
         android:gravity="center"
@@ -228,10 +227,10 @@
 
         <ImageView
             android:id="@+id/icTambahan"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:src="@drawable/ic_tambahan"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="10dp"/>
 
         <TextView
@@ -240,15 +239,15 @@
             android:layout_height="wrap_content"
             android:text="Tambahan"
             android:textSize="14sp"
-            android:layout_marginTop="95dp"
-            android:layout_marginStart="27dp"/>
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="16dp"/>
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/tvLpegawai"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="28dp"
         android:layout_marginStart="10dp"
         android:gravity="center"
@@ -260,11 +259,11 @@
 
         <ImageView
             android:id="@+id/icPegawai"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:src="@drawable/ic_pegawai"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="17dp"/>
 
         <TextView
             android:id="@+id/Pegawai"
@@ -272,15 +271,15 @@
             android:layout_height="wrap_content"
             android:text="Pegawai"
             android:textSize="14sp"
-            android:layout_marginTop="95dp"
-            android:layout_marginStart="34dp"/>
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="25dp"/>
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/tvLcabang"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="28dp"
         android:layout_marginStart="15dp"
         android:gravity="center"
@@ -292,11 +291,11 @@
 
         <ImageView
             android:id="@+id/icCabang"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:src="@drawable/ic_cabang"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="17dp"/>
 
         <TextView
             android:id="@+id/tvCabang"
@@ -304,17 +303,17 @@
             android:layout_height="wrap_content"
             android:text="Cabang"
             android:textSize="14sp"
-            android:layout_marginTop="95dp"
-            android:layout_marginStart="37dp"/>
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="26dp"/>
 
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/tvLprinter"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="148dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="127dp"
         android:layout_marginStart="15dp"
         android:gravity="center"
         android:orientation="vertical"
@@ -324,11 +323,11 @@
 
         <ImageView
             android:id="@+id/icPrinter"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:src="@drawable/ic_printer"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="17dp"/>
 
         <TextView
             android:id="@+id/tvPrinter"
@@ -336,8 +335,8 @@
             android:layout_height="wrap_content"
             android:text="Printer"
             android:textSize="14sp"
-            android:layout_marginTop="95dp"
-            android:layout_marginStart="38dp"/>
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="30dp"/>
 
     </androidx.cardview.widget.CardView>
 
