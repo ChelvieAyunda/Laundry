@@ -39,6 +39,7 @@
         android:layout_marginStart="550dp"/>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/Layout1"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_marginHorizontal="16dp"
@@ -124,5 +125,172 @@
             android:layout_marginTop="205dp"
             android:layout_marginStart="110dp"/>
     </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Layout2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="255dp"
+        app:layout_constraintStart_toStartOf="@+id/Layout1"
+        app:layout_constraintTop_toBottomOf="@+id/tvJudul">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_transaksi2"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/tvTransaksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transaksi"
+            android:textSize="14sp"
+            android:layout_marginTop="75dp"
+            android:layout_marginStart="20dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Layout3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="110dp"
+        app:layout_constraintStart_toStartOf="@+id/Layout2"
+        app:layout_constraintTop_toBottomOf="@+id/tvJudul">
+
+        <ImageView
+            android:id="@+id/icLayanan"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_layanan2"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+        android:id="@+id/layanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Layanan"
+        android:textSize="14sp"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="25dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Layout4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="110dp"
+        app:layout_constraintStart_toStartOf="@+id/Layout3"
+        app:layout_constraintTop_toBottomOf="@+id/tvJudul">
+
+        <ImageView
+            android:id="@+id/icTambahan"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_tambahan"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/Tambahan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambahan"
+            android:textSize="14sp"
+            android:layout_marginTop="75dp"
+            android:layout_marginStart="17dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Layout5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="255dp"
+        app:layout_constraintStart_toStartOf="@+id/Layout1"
+        app:layout_constraintTop_toBottomOf="@+id/Layout2">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_pelanggan"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/tvPelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pelanggan"
+            android:textSize="14sp"
+            android:layout_marginTop="75dp"
+            android:layout_marginStart="17dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Layout6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/Layout5"
+        app:layout_constraintTop_toBottomOf="@+id/Layout3">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_laporan"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="17dp"/>
+
+        <TextView
+            android:id="@+id/tvLaporan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laporan"
+            android:textSize="14sp"
+            android:layout_marginTop="75dp"
+            android:layout_marginStart="25dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Layout7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="110dp"
+        app:layout_constraintStart_toStartOf="@+id/Layout6"
+        app:layout_constraintTop_toBottomOf="@+id/Layout4">
+
+        <ImageView
+            android:id="@+id/icPrinter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_printer"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="17dp"/>
+
+        <TextView
+            android:id="@+id/tvPrinter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Printer"
+            android:textSize="14sp"
+            android:layout_marginTop="75dp"
+            android:layout_marginStart="28dp"/>
+    </androidx.cardview.widget.CardView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
