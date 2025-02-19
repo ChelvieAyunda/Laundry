@@ -93,6 +93,7 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:id="@+id/pelanggan"
             android:src="@drawable/ic_pelanggan"
             android:layout_marginStart="137dp"
             android:layout_marginTop="60dp"/>
