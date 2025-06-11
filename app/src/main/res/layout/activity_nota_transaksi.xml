@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    tools:context="transaksi.MainActivity">
+
+    <!-- Header Section -->
+    <TextView
+        android:id="@+id/tvZioLaundry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CleanWave Laundry"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGilingan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gilingan"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvZioLaundry" />
+
+    <!-- Transaction Details Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Transaksi"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/lblIdTransaksi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvGilingan" />
+
+    <TextView
+        android:id="@+id/tvIdTransaksi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="-OQBFF4tpqCrkBBN9l0zv"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:gravity="end"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@id/lblIdTransaksi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/lblIdTransaksi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/lblTanggal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lblIdTransaksi" />
+
+    <TextView
+        android:id="@+id/tvTanggal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2025-05-14 07:47:17"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:gravity="end"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@id/lblTanggal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/lblTanggal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesanan"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/lblPesanan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lblTanggal" />
+
+    <TextView
+        android:id="@+id/tvPesanan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Adel"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:gravity="end"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@id/lblPesanan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/lblPesanan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karyawan"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/lblKaryawan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lblPesanan" />
+
+    <TextView
+        android:id="@+id/tvKaryawan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Billa"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:gravity="end"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@id/lblKaryawan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/lblKaryawan" />
+
+    <!-- First Divider -->
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lblKaryawan" />
+
+    <!-- Main Service Section -->
+    <TextView
+        android:id="@+id/tvCuciSetrika"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cuci Setrika 5kg"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@id/tvHargaCuciSetrika"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider1" />
+
+    <TextView
+        android:id="@+id/tvHargaCuciSetrika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp40.000,00"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvCuciSetrika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvCuciSetrika" />
+
+    <!-- Additional Services Section -->
+    <TextView
+        android:id="@+id/tvRincianTambahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rincian Tambahan"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCuciSetrika" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAdditionalItems"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:nestedScrollingEnabled="true"
+        android:overScrollMode="never"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvRincianTambahan"
+        tools:itemCount="3"
+        tools:listitem="@layout/card_layanan_tambahan" />
+
+    <!-- Second Divider -->
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recyclerViewAdditionalItems" />
+
+    <!-- Subtotal Section -->
+    <TextView
+        android:id="@+id/tvSubtotal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Subtotal Tambahan"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@id/tvHargaSubtotalTambahan"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider2" />
+
+    <TextView
+        android:id="@+id/tvHargaSubtotalTambahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp50.000,00"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvSubtotal"/>
+
+
+    <!-- Action Buttons -->
+    <Button
+        android:id="@+id/buttonKirimWhatsapp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#25D366"
+        android:text="Kirim WhatsApp"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@id/buttonCetak"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSubtotal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonCetak"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#0096FF"
+        android:text="Cetak"
+        android:textColor="@android:color/white"
+        app:layout_constraintBaseline_toBaselineOf="@id/buttonKirimWhatsapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonKirimWhatsapp" />
+
+    <!-- Success Button -->
+    <Button
+        android:id="@+id/buttonTransaksiSukses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#D3D3D3"
+        android:drawableStart="@android:drawable/ic_menu_camera"
+        android:drawableTint="@android:color/black"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:text="Transaksi Sukses Disimpan"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonKirimWhatsapp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

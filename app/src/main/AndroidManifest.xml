@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,7 +15,40 @@
         android:theme="@style/Theme.Laundry"
         tools:targetApi="31">
         <activity
-            android:name=".data_layanan"
+            android:name=".Activity.item_additional"
+            android:exported="false" />
+        <activity
+            android:name="transaksi.card_dialog_mod"
+            android:exported="false" />
+        <activity
+            android:name="transaksi.notaTransaksi"
+            android:exported="false" />
+        <activity
+            android:name="transaksi.Pembayaran"
+            android:exported="false" />
+        <activity
+            android:name="transaksi.KonfirmasiData"
+            android:exported="false" />
+        <activity
+            android:name="transaksi.layanan_tambahan"
+            android:exported="false" />
+        <activity
+            android:name=".pilih_layanan"
+            android:exported="false" />
+        <activity
+            android:name="transaksi.cari_pelanggan"
+            android:exported="false" />
+        <activity
+            android:name=".activity_transaksi"
+            android:exported="false" />
+        <activity
+            android:name=".login_Laundry"
+            android:exported="false" />
+        <activity
+            android:name="transaksi.card_data_laporan"
+            android:exported="false" />
+        <activity
+            android:name="transaksi.data_layanan"
             android:exported="false" />
         <activity
             android:name="com.chelvie.Layanan.Card_Layanan"
@@ -33,7 +66,7 @@
             android:name=".pelanggan.DataPelanggan"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="transaksi.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

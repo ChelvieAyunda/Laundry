@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_transaksi">
+    tools:context="transaksi.">
 
    <androidx.cardview.widget.CardView
        android:id="@+id/tvTransaksi"
@@ -50,7 +50,7 @@
             android:layout_marginEnd="20dp"/>
 
          <Button
-            android:id="@+id/PILIHPELANGGAN"
+            android:id="@+id/btnPILIHPELANGGAN"
              android:layout_width="match_parent"
              android:layout_height="50dp"
             android:layout_marginStart="20dp"
@@ -78,7 +78,7 @@
              android:text="Nama Layanan" />
 
          <TextView
-             android:id="@+id/tvHarga"
+             android:id="@+id/tvHargaLayanan"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:text="Harga"
@@ -88,7 +88,7 @@
              android:layout_marginEnd="20dp"/>
 
          <Button
-             android:id="@+id/PILIHLAYANAN"
+             android:id="@+id/btnPILIHLAYANAN"
              android:layout_width="match_parent"
              android:layout_height="50dp"
              android:layout_marginStart="20dp"
@@ -118,14 +118,13 @@
       android:layout_marginTop="5dp"
        android:id="@+id/tvnested"
       android:layout_marginBottom="5dp"
-      app:layout_Behavior="com.google.android.material.appbar.AppBarLayout"
        app:layout_constraintBottom_toTopOf="@id/card2"
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toBottomOf="@id/tvTransaksi">
 
       <androidx.recyclerview.widget.RecyclerView
-          android:id="@+id/tvTRANSAKSI"
+          android:id="@+id/rvTRANSAKSI"
           android:layout_width="match_parent"
           android:layout_height="match_parent"
          tools:listitem="@layout/card_layanan_tambahan"/>

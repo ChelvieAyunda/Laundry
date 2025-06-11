@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/card_pelanggan"
         android:layout_width="407dp"
-        android:layout_height="185dp"
+        android:layout_height="220dp"
         android:layout_margin="5dp"
         android:padding="16dp"
         tools:layout_editor_absoluteX="2dp"
@@ -20,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/card_pelanggan_id"
+            android:id="@+id/idpelanggan"
             android:textSize="16sp"
             android:textStyle="bold"
             android:paddingBottom="4dp"
@@ -60,6 +61,14 @@
                 android:textSize="16sp"
                 android:paddingBottom="4dp"
                 android:layout_marginStart="5dp"/>
+        <TextView
+            android:id="@+id/tvCabang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cabang"
+            android:textSize="16sp"
+            android:paddingBottom="4dp"
+            android:layout_marginStart="5dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -84,6 +93,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="@string/lihat"
+                    android:id="@+id/btLihat"
                     android:backgroundTint="#30175F"
                     android:textColor="@android:color/white"
                     android:layout_marginEnd="10dp"

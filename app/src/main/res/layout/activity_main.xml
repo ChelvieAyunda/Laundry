@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FDF5FF"
-    tools:context=".MainActivity">
+    tools:context="transaksi.MainActivity">
 
     <!-- Header -->
     <TextView
@@ -37,6 +37,7 @@
         android:layout_marginStart="210dp"/>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/tvLayout1"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginTop="20dp"

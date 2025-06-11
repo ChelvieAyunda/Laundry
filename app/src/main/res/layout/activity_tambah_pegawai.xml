@@ -88,6 +88,7 @@
         android:layout_height="48dp"
         android:background="@drawable/rectangle"
         android:hint="No HP Aktif"
+        android:inputType="phone"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@id/btsimpan"
         android:layout_marginEnd="20dp"

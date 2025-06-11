@@ -5,6 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pegawai.">
+    tools:context="transaksi.card_dialog_mod">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tvCARIPELANGGAN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/card_dialog_mod">
+    </androidx.recyclerview.widget.RecyclerView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.chelvie.laundry
+package transaksi
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.chelvie.laundry.pegawai.TambahPegawai
+import com.chelvie.laundry.R
 import com.chelvie.laundry.pegawai.data_pegawai
 import com.chelvie.laundry.pelanggan.DataPelanggan
 

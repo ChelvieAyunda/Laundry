@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943655447190",
+    "project_id": "laundryappchelvie",
+    "storage_bucket": "laundryappchelvie.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943655447190:android:0c67d4b11c62f375c370b7",
+        "android_client_info": {
+          "package_name": "com.chelvie.laundry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGpN-YcW-gJ7YQqjfnHp0zYBSlcmgf56A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

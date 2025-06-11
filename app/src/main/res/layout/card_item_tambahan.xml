@@ -29,7 +29,6 @@
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/tvTambahan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pewangi Aroma Melati"
@@ -37,8 +36,8 @@
             android:paddingBottom="4dp"
             android:layout_marginStart="5dp"/>
 
+
         <TextView
-            android:id="@+id/tvHarga"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Harga: Rp10.000,00"

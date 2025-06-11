@@ -5,11 +5,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".layanan_tambahan">
+    tools:context="transaksi.">
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/tvLAYANANTAMBAHAN"
+        android:id="@+id/rvDATA_Layanan"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/card_layanan_tambahan">

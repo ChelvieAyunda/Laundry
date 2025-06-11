@@ -17,6 +17,7 @@
         android:backgroundTint="#578FCA">
 
         <TextView
+            android:id="@+id/tvidLayanan"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="id layanan"
@@ -37,6 +38,7 @@
         android:layout_marginTop="45dp">
 
         <TextView
+            android:id="@+id/tvNamalayanan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="nama layanan"
@@ -46,6 +48,7 @@
             android:layout_marginTop="5dp"/>
 
         <TextView
+            android:id="@+id/tvharga"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="harga"
@@ -54,6 +57,7 @@
             android:layout_marginStart="5dp"/>
 
         <TextView
+            android:id="@+id/tvnamaCabang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="nama cabang"
@@ -69,6 +73,7 @@
             android:layout_marginTop="10dp">
 
             <Button
+                android:id="@+id/btHubungi"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -79,6 +84,7 @@
                 android:layout_marginStart="5dp"/>
 
             <Button
+                android:id="@+id/btLihat"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"

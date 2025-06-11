@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:textColor="@color/black"
-        android:hint="Nama Lengkap"
+        android:hint="@string/nama_lengkap"
         android:paddingLeft="10dp"
         android:background="@drawable/rectangle"
         android:layout_marginStart="20dp"

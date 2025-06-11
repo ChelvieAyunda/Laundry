@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvPegawai"
     android:layout_width="407dp"
     android:layout_height="220dp"
     android:layout_margin="5dp"
@@ -15,6 +16,7 @@
         android:layout_marginTop="10dp">
 
         <TextView
+            android:id="@+id/idPegawai"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/card_pegawai"
@@ -34,6 +36,7 @@
             android:layout_marginTop="30dp"/>
 
         <TextView
+            android:id="@+id/tvNama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/alamat"

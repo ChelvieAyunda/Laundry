@@ -1,10 +1,11 @@
-package com.chelvie.laundry
+package transaksi
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.chelvie.laundry.R
 
 class card_data_laporan : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
